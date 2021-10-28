@@ -68,15 +68,9 @@ p{
     text-decoration: rgb(255, 0, 0);
 }
 
-@media only screen and (min-width: 768px){
-    .banner{
-        max-width: 90%;
-    }
+@media only screen and (min-width: 600px) {
     .redes_sociais_div ul{
         display:flex;
     }   
     
-    .redes_sociais_div ul li{
-        border-bottom: 0px;
-    }
 }

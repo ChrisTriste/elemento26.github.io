@@ -36,8 +36,8 @@ body{
 }
 
 .rede_icone{    
-    height:80px;
-    margin: 15px; 
+    height: 96px;
+    margin: 16px; 
 }
 
 .redes_sociais_div{
@@ -48,7 +48,8 @@ body{
     justify-content:space-between;
     text-align:center;
 }
-ul li{
+
+.redes_sociais_div ul li{
     margin-bottom: 1.5rem;
 }
 
@@ -68,9 +69,8 @@ p{
     text-decoration: rgb(255, 0, 0);
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
     .redes_sociais_div ul{
         display:flex;
-    }   
-    
+    }
 }
